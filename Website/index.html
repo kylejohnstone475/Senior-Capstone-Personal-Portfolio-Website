@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kyle Johnstone's Website</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Kyle Johnstone | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="site-layout">
 
-<iframe src="menu.html" height="1200" width="20%" style="border:none" align="left" name="menu"></iframe>
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">KJ</div>
+                <div>
+                    <h2>Kyle Johnstone</h2>
+                    <p>Personal Portfolio</p>
+                </div>
+            </div>
 
-<iframe src="home.html" height="1200" width="80%" style="border:none" align="right" name="rightside"></iframe>
+            <div class="sidebar-divider"></div>
 
+            <p class="nav-label">NAVIGATION</p>
+
+            <iframe
+                src="menu.html"
+                name="menu"
+                title="Website navigation"
+                class="menu-frame">
+            </iframe>
+
+            <div class="sidebar-footer">
+                <p>Learning and Growth.</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <span class="page-label">MY PERSONAL WEBSITE</span>
+                <span class="status-indicator">
+                    Welcome
+                </span>
+            </header>
+
+            <section class="content-panel">
+                <iframe
+                    src="home.html"
+                    name="rightside"
+                    title="Portfolio content"
+                    class="content-frame">
+                </iframe>
+            </section>
+
+            <footer class="site-footer">
+                <p></p>
+                <p>Built with HTML and CSS</p>
+            </footer>
+        </main>
+
+    </div>
 </body>
 </html>
